@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import {addToCart, removeFromCart} from '../redux/reducers/cartReducer';
 import {useDispatch} from 'react-redux';
+import {ShoppingBagIcon} from 'react-native-heroicons/solid';
 
 const ProductCard = ({product, onPress}) => {
   const dispatch = useDispatch();
@@ -24,6 +25,7 @@ const ProductCard = ({product, onPress}) => {
           onPress={() => {
             dispatch(addToCart(product));
           }}>
+          <ShoppingBagIcon color={'white'} />
           <Text style={styles.addtext}>ADD TO CART</Text>
         </TouchableOpacity>
       </View>
@@ -34,16 +36,22 @@ const ProductCard = ({product, onPress}) => {
 const styles = StyleSheet.create({
   addtext: {
     fontWeight: 'bold',
-    fontSize: 18,
+    fontSize: 12,
     color: '#FFFFFF',
+    textAlign: 'center',
   },
   addcart: {
+    gap: 5,
+    flexDirection: 'row',
     borderRadius: 10,
     backgroundColor: '#60A5FA',
+    paddingHorizontal: 10,
     padding: 5,
     borderRadius: 5,
-
     alignItems: 'center',
+    justifyContent: 'center',
+    width: '55%',
+    marginLeft: 75,
   },
   card: {
     backgroundColor: '#fff',

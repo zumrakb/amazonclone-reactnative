@@ -14,6 +14,7 @@ import {
   decrementQuantity,
 } from '../redux/reducers/cartReducer';
 import fetchImagesForCategory from '../utils/unsplashApi';
+import {TrashIcon} from 'react-native-heroicons/solid';
 
 const CartScreen = () => {
   const cartItems = useSelector(state => state.cart.items);
@@ -90,6 +91,7 @@ const CartScreen = () => {
               <TouchableOpacity
                 style={styles.removeButton}
                 onPress={() => handleRemoveFromCart(item.id)}>
+                <TrashIcon color={'white'} />
                 <Text style={styles.removeButtonText}>Sil</Text>
               </TouchableOpacity>
             </View>
@@ -122,11 +124,14 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   removeButton: {
-    backgroundColor: '#FF6347',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 10,
+    backgroundColor: '#ee9c15',
     padding: 10,
     borderRadius: 10,
     marginVertical: 10,
-    alignItems: 'center',
   },
   removeButtonText: {
     color: '#fff',
@@ -145,8 +150,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   image: {
-    width: 80,
-    height: 80,
+    width: 150,
+    height: '100%',
     borderRadius: 10,
   },
   infoContainer: {
