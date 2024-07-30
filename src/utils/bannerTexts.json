@@ -1,0 +1,58 @@
+{
+  "Prime": {
+    "overlayTitle": "Prime",
+    "overlaySubtitle": "Prime avantajları",
+    "overlayText1": "Ücretsiz ve hızlı teslimat",
+    "overlayText2": "Prime Video ile eğlenceye doy!",
+    "overlayBottomText": "Prime üyelik ile daha fazla avantaj"
+  },
+  "Hediye": {
+    "overlayTitle": "Hediye",
+    "overlaySubtitle": "Hediye seçenekleri",
+    "overlayText1": "Sevdiklerinize özel hediyeler",
+    "overlayText2": "Her bütçeye uygun hediye seçenekleri",
+    "overlayBottomText": "Hediye rehberimize göz atın"
+  },
+  "Fırsatlar": {
+    "overlayTitle": "Fırsatlar",
+    "overlaySubtitle": "Büyük indirimler",
+    "overlayText1": "Kaçırılmayacak fırsatlar",
+    "overlayText2": "Sınırlı süreli kampanyalar",
+    "overlayBottomText": "İndirimlerden yararlanın"
+  },
+  "Gıda ve İçecek": {
+    "overlayTitle": "Gıda ve İçecek",
+    "overlaySubtitle": "Taze ve kaliteli",
+    "overlayText1": "Günlük ihtiyaçlarınızı karşılayın",
+    "overlayText2": "Sağlıklı ve lezzetli ürünler",
+    "overlayBottomText": "Gıda ürünlerimizi keşfedin"
+  },
+  "Sağlık": {
+    "overlayTitle": "Sağlık",
+    "overlaySubtitle": "Sağlıklı yaşam",
+    "overlayText1": "Kişisel bakım ürünleri",
+    "overlayText2": "Güvenilir sağlık ürünleri",
+    "overlayBottomText": "Sağlıklı yaşam rehberimize göz atın"
+  },
+  "Evcil Hayvan": {
+    "overlayTitle": "Evcil Hayvan",
+    "overlaySubtitle": "Evcil hayvan bakımı",
+    "overlayText1": "Evcil hayvanınıza en iyi bakımı sağlayın",
+    "overlayText2": "Kaliteli mama ve aksesuarlar",
+    "overlayBottomText": "Evcil hayvan ürünlerimizi keşfedin"
+  },
+  "Moda ve Güzellik": {
+    "overlayTitle": "Moda ve Güzellik",
+    "overlaySubtitle": "Son trendler",
+    "overlayText1": "Şık ve modern kıyafetler",
+    "overlayText2": "Cilt bakım ürünleri",
+    "overlayBottomText": "Güzellik ipuçlarına göz atın"
+  },
+  "Ev ve Mutfak": {
+    "overlayTitle": "Ev ve Mutfak",
+    "overlaySubtitle": "Ev ve mutfak gereçleri",
+    "overlayText1": "Kaliteli mutfak eşyaları",
+    "overlayText2": "Şık dekorasyon ürünleri",
+    "overlayBottomText": "Ev ve mutfak ürünlerimizi keşfedin"
+  }
+}
