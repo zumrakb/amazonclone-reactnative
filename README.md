@@ -1,4 +1,4 @@
-![Screenshot_20240730_173218_AmazonClone](https://github.com/user-attachments/assets/86e25bf9-c88b-43e2-8b35-91911fce4f0e)
+
 # Amazon Clone - React Native
 
 ## Kullanılanlar:
