@@ -7,6 +7,7 @@ import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
 const App = () => {
   return (
+    /* here is some changes sjkgsfdghlglrk */
     <GestureHandlerRootView style={{flex: 1}}>
       <Provider store={store}>
         <Header />
